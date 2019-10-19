@@ -1,5 +1,8 @@
 {
   "name": "nigerielles",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
   "type": "angular"
 }
