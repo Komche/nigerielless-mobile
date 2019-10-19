@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>product</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item *ngFor="let product of products">
+          <ion-thumbnail slot="start">
+            <ion-img [src]="product.featured_media"></ion-img>
+          </ion-thumbnail>
+          <ion-label>{{product.title.rendered}}</ion-label>
+        </ion-item>
+      </ion-list>
+</ion-content>
